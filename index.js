@@ -2,7 +2,7 @@ import express from 'express'
 import { ApolloServer } from 'apollo-server-express'
 import { resolvers, typeDefs } from './schema'
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3002
 const app = express()
 
 const server = new ApolloServer({

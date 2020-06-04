@@ -167,7 +167,8 @@
             "to": "December 5, 2019",
             "reason": "sample",
             "approvername": "Pradnya Dalvi",
-            "org": "xyz"
+            "org": "xyz",
+            "notename": "Akshata Waghe will be off during the requested time. Please see the dashboard for more details"
         },
         {
             "image": "/avatars/avatar_2.png",
@@ -207,5 +208,264 @@
             "name": "Aniket",
             "image": "/avatars/avatar_6.png"
         }
-    ]
+    ], 
+    "teammembers": [
+      {
+        "Image": "/avatars/avatar_1.png",
+        "Name":"Akshata Waghe",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "engineering",
+        "AccountType": "| User",
+        "Status": "Active",
+        "org": "udgama"
+      }, 
+      {
+        "Image": "/avatars/avatar_2.png",
+        "Name": "Aniket Kambli",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "backend",
+        "AccountType": "| User",
+        "Status": "Active",
+        "org": "udgama"
+      },
+      {
+        "Image": "/avatars/avatar_3.png",
+        "Name": "Devendra Mehra",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "engineering",
+        "AccountType": "| Admin",
+        "Status": "Active",
+        "org": "udgama"
+      },
+      {
+        "Image": "/avatars/avatar_4.png",
+        "Name": "Mandar Waghe",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "engineering",
+        "AccountType": "| User",
+        "Status": "Active",
+        "org": "udgama"
+      }, 
+      {
+        "Image": "/avatars/avatar_5.png",
+        "Name": "Nisha Joshi",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "engineering",
+        "AccountType": "| User",
+        "Status": "Active",
+        "org": "udgama"
+      }, 
+      {
+        "Image": "/avatars/avatar_6.png",
+        "Name": "Pradnya Dalvi",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "engineering",
+        "AccountType": "| User",
+        "Status": "Active",
+        "org": "udgama"
+      }, 
+      {
+        "Image": "/avatars/avatar_2.png",
+        "Name": "Shreya Ghate",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "engineering",
+        "AccountType": "| Admin",
+        "Status": "Active",
+        "org": "udgama"
+      }, 
+      {
+        "Image": "/avatars/avatar_1.png",
+        "Name": "Snehal Narkar",
+        "RemainingDays": "24/24 days off remaining",
+        "Team": "backend",
+        "AccountType": "| User",
+        "Status": "Active",
+        "org": "xyz"
+      }
+  ], 
+  "holidays2020":
+  [
+    {
+      "id": "1",
+      "name":"Makar sankranti",
+      "date":"January 1, 2020",
+      "day":"Wed",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "2",
+      "name":"Republic Day",
+      "date":"January 26, 2020",
+      "day":"Sun",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "3",
+      "name":"Vasant Panchami",
+      "date":"January 29, 2020",
+      "day":"Wed",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "4",
+      "name":"Holi",
+      "date":"March 10, 2020",
+      "day":"Wed",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "5",
+      "name":"Rama Navami",
+      "date":"April 2, 2020",
+      "day":"Thu",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "6",
+      "name":"Janmashtami",
+      "date":"August 12, 2020",
+      "day":"Wed",
+      "year": "2020",
+      "isholidayforallteams": "false",
+      "teams":[
+        {"id": "1", "teamname": "abc"}, 
+        {"id": "2", "teamname": "abddc"}] ,    
+      "org":"udgama"
+    },
+    {
+      "id": "7",
+      "name":"Independence Day",
+      "date":"August 15, 2020",
+      "day":"Sat",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {      
+      "id": "8",
+      "name":"Dussehra",
+      "date":"October 24, 2020",
+      "day":"Sun",
+      "year": "2020",
+      "isholidayforallteams": "false",
+      "teams":[
+        {"id": "1", "teamname": "abc"}, 
+        {"id": "2", "teamname": "abddc"}] ,      
+      "org":"udgama"
+    },
+    {      
+      "id": "9",
+      "name":"Diwali",
+      "from": "November 2, 2020",
+      "to": "November 5, 2020",
+      "day":"Sat to Wed",
+      "year": "2020",
+      "isholidayforallteams": "false",
+      "teams":[
+        {"id": "1", "teamname": "abc"}, 
+        {"id": "2", "teamname": "abddc"}] ,
+      "org":"udgama"
+    }
+  ],
+  "holidays2021":
+  [
+    {
+      "id": "1",
+      "name":"Makar sankranti",
+      "date":"January 1, 2021",
+      "day":"Wed",
+      "year": "2021",
+      "isholidayforallteams": "false",
+      "teams":[
+        {"id": "1", "teamname": "abc"}, 
+        {"id": "2", "teamname": "abddc"}] ,
+      "org":"udgama"
+    },
+    {
+      "id": "2",
+      "name":"Republic Day",
+      "date":"January 26, 2021",
+      "day":"Sun",
+      "year": "2021",
+      "isholidayforallteams": "false",
+      "teams":[
+        {"id": "1", "teamname": "abc"}, 
+        {"id": "2", "teamname": "abddc"}] ,
+      "org":"udgama"
+    },
+    {
+      "id": "3",
+      "name":"Vasant Panchami",
+      "date":"January 29, 2021",
+      "day":"Wed",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "4",
+      "name":"Holi",
+      "date":"March 10, 2021",
+      "day":"Wed",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {     
+      "id": "5",
+      "name":"Rama Navami",
+      "date":"April 2, 2021",
+      "day":"Thu",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "6",
+      "name":"Janmashtami",
+      "date":"August 12, 2021",
+      "day":"Wed",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "7",
+      "name":"Independence Day",
+      "date":"August 15, 2021",
+      "day":"Sat",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "8",
+      "name":"Dussehra",
+      "date":"October 24, 2021",
+      "day":"Sun",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    },
+    {
+      "id": "9",
+      "name":"Diwali",
+      "from": "November 2, 2021",
+      "to": "November 5, 2021",
+      "day":"Sat to Wed",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org":"udgama"
+    }
+  ]
   }

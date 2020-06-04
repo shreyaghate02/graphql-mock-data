@@ -22,6 +22,23 @@ class User {
     .then(res => res)
     .catch(err => console.log(err));
   }
+
+  teammemberList() {
+    return this.api.get('/teammembers').then(res => res.data)
+    .then(res => res)
+    .catch(err => console.log(err));
+  }
+
+  holidayList20() {
+    return this.api.get('/holidays2020').then(res => res.data)
+    .then(res => res)
+    .catch(err => console.log(err));
+  }
+  holidayList21() {
+    return this.api.get('/holidays2021').then(res => res.data)
+    .then(res => res)
+    .catch(err => console.log(err));
+  }
 }
 
 export default new User();;
