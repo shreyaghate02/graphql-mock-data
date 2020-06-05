@@ -43,55 +43,63 @@ type Teams {
     id: String
     teamname: String
 }
-type Holiday20 {
-    id: ID!
-    name: String!
-    isMultipleHoliday: String
-    date: String
-    day: String
-    start_date: String
-    end_date: String
-    year: String
-    isholidayforallteams: String
-    teamname: String
-    teams: [Teams]
-    org: String
-}
-type Holiday21 {
-    id: ID!
-    name: String!
-    isMultipleHoliday: String
-    date: String
-    day: String
-    start_date: String
-    end_date: String
-    year: String
-    isholidayforallteams: String
-    teamname: String
-    teams: [Teams]
-    org: String
-}
+
 type Holiday {
     id: ID!
     name: String!
     isMultipleHoliday: String
     date: String
+    day: String
     start_date: String
     end_date: String
     year: String
     isholidayforallteams: String
     teamname: String
     teams: [Teams]
-  }
+    org: String
+}
+
+type HolidayData {
+    id: ID!
+    data: [Holiday]
+}
+type AddLeave {
+    name: String
+    reason: String
+    date: String
+}
+input CreateLeave {
+    name: String
+    reason: String
+    date: String
+}
+input HolidayInput {
+    name: String
+    date: String
+    year: String
+    isholidayforallteams: String
+    teams: [String]
+}
+input CreateHolidayInput {
+    id: ID!
+    data: [HolidayInput]
+}
+type CreatedMsg {
+    msg: String
+}
 
 type Query {
     users: [User],
     persons: [Person],
     leaves: [Leave],
+    leave: [AddLeave],
     teams: [Teams],
     teammembers: [TeamMembers],
-    holidays2020: [Holiday20]
-    holidays2021: [Holiday21]
+    holiday(id: ID!): HolidayData
+}
+type Mutation {
+    createLeave(input: CreateLeave): CreatedMsg
+    createHoliday(input: CreateHolidayInput): CreatedMsg
 }
 `
 
@@ -106,14 +114,25 @@ export const resolvers = {
     leaves: () => {
         return userModel.leaveList()
     },
+    leave: () => {
+        return userModel.addleaveList()
+    },
     teammembers: () => {
         return userModel.teammemberList()
     },
-    holidays2020: () => {
-        return userModel.holidayList20()
+    holiday(source, args) {
+        console.log(args);
+        return userModel.getHoliday(args)
+    }
+  },
+  Mutation: {
+    createLeave(source, args) {
+      console.log(args);
+      return userModel.createLeave(args)
     },
-    holidays2021: () => {
-        return userModel.holidayList21()
-    },
+    createHoliday(source, args) {
+        console.log(args);
+        return userModel.createHoliday(args)
+      },
   }
 }

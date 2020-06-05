@@ -22,22 +22,51 @@ class User {
     .then(res => res)
     .catch(err => console.log(err));
   }
-
+  addleaveList() {
+    return this.api.get('/leave').then(res => res.data)
+    .then(res => res)
+    .catch(err => console.log(err));
+  }
   teammemberList() {
     return this.api.get('/teammembers').then(res => res.data)
     .then(res => res)
     .catch(err => console.log(err));
   }
 
-  holidayList20() {
-    return this.api.get('/holidays2020').then(res => res.data)
+  getHoliday(args) {
+    console.log(args.id)
+    return this.api.get(`/holiday/${args.id}`).then(res => res.data)
     .then(res => res)
     .catch(err => console.log(err));
   }
-  holidayList21() {
-    return this.api.get('/holidays2021').then(res => res.data)
-    .then(res => res)
-    .catch(err => console.log(err));
+
+
+  async createLeave(data) {
+    console.log(data);
+    const data1 = await this.api.post('/leave', data.input);
+    console.log(data1);
+    if (data1.status === 201 || data.status === 200){
+        return {
+            msg: "Leave added successfuly!"
+        }
+    }
+    return {
+        error: "Something went wrong!"
+    }
+  }
+
+  async createHoliday(data) {
+    console.log(data);
+    const data1 = await this.api.post('/holiday', data.input);
+    console.log(data1);
+    if (data1.status === 201 || data.status === 200){
+        return {
+            msg: "holiday added successfuly!"
+        }
+    }
+    return {
+        error: "Something went wrong!"
+    }
   }
 }
 
