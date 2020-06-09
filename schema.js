@@ -44,7 +44,7 @@ type Teams {
     teamname: String
 }
 
-type Holiday {
+type Holidays {
     id: ID!
     name: String!
     isMultipleHoliday: String
@@ -61,7 +61,7 @@ type Holiday {
 
 type HolidayData {
     id: ID!
-    data: [Holiday]
+    data: [Holidays]
 }
 type AddLeave {
     name: String
@@ -95,7 +95,7 @@ type Query {
     leave: [AddLeave],
     teams: [Teams],
     teammembers: [TeamMembers],
-    holiday(id: ID!): HolidayData
+    demoholidays: [Holidays]
 }
 type Mutation {
     createLeave(input: CreateLeave): CreatedMsg
@@ -120,9 +120,8 @@ export const resolvers = {
     teammembers: () => {
         return userModel.teammemberList()
     },
-    holiday(source, args) {
-        console.log(args);
-        return userModel.getHoliday(args)
+    demoholidays: () => {
+        return userModel.getHoliday()
     }
   },
   Mutation: {

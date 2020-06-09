@@ -555,5 +555,71 @@
       "date": "02/12/2012",
       "id": 1
     }
+  ],
+  "demoholidays": [
+    {
+      "id": "1",
+      "name": "Makar sankranti",
+      "date": "January 1, 2020",
+      "day": "Wed",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org": "udgama"
+    },
+    {
+      "id": "2",
+      "name": "Republic Day",
+      "date": "January 26, 2020",
+      "day": "Sun",
+      "year": "2020",
+      "isholidayforallteams": "false",
+          "teams": [
+            {
+              "id": "1",
+              "teamname": "abc"
+            },
+            {
+              "id": "2",
+              "teamname": "abddc"
+            }
+          ],
+      "org": "udgama"
+    },
+    {
+      "id": "3",
+      "name": "Vasant Panchami",
+      "date": "January 29, 2020",
+      "day": "Wed",
+      "year": "2020",
+      "isholidayforallteams": "true",
+      "org": "udgama"
+    },
+    {
+      "id": "4",
+      "name": "Holi",
+      "date": "March 10, 2021",
+      "day": "Wed",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org": "udgama"
+    },
+    {
+      "id": "5",
+      "name": "Rama Navami",
+      "date": "April 2, 2021",
+      "day": "Thu",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org": "udgama"
+    },
+    {
+      "id": "6",
+      "name": "Janmashtami",
+      "date": "August 12, 2021",
+      "day": "Wed",
+      "year": "2021",
+      "isholidayforallteams": "true",
+      "org": "udgama"
+    }
   ]
 }

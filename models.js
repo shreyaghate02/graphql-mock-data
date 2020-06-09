@@ -33,9 +33,13 @@ class User {
     .catch(err => console.log(err));
   }
 
-  getHoliday(args) {
-    console.log(args.id)
-    return this.api.get(`/holiday/${args.id}`).then(res => res.data)
+  // getHoliday() {
+  //   return this.api.get(`/holiday`).then(res => res.data)
+  //   .then(res => res)
+  //   .catch(err => console.log(err));
+  // }
+  getHoliday() {
+    return this.api.get(`/demoholidays`).then(res => res.data)
     .then(res => res)
     .catch(err => console.log(err));
   }
