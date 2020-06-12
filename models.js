@@ -39,7 +39,7 @@ class User {
   //   .catch(err => console.log(err));
   // }
   getHoliday() {
-    return this.api.get(`/demoholidays`).then(res => res.data)
+    return this.api.get('/holidays').then(res => res.data)
     .then(res => res)
     .catch(err => console.log(err));
   }
@@ -61,11 +61,12 @@ class User {
 
   async createHoliday(data) {
     console.log(data);
-    const data1 = await this.api.post('/holiday', data.input);
+    const data1 = await this.api.post('/holidays', data.input);
     console.log(data1);
     if (data1.status === 201 || data.status === 200){
         return {
-            msg: "holiday added successfuly!"
+            msg: "Holiday added successfuly!",
+            data: data1.data
         }
     }
     return {

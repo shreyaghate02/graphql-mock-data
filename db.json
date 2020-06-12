@@ -283,287 +283,15 @@
       "org": "xyz"
     }
   ],
-  "holiday": [
-    {
-      "id": 2020,
-      "data": [
-        {
-          "id": "1",
-          "name": "Makar sankranti",
-          "date": "January 1, 2020",
-          "day": "Wed",
-          "year": "2020",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "2",
-          "name": "Republic Day",
-          "date": "January 26, 2020",
-          "day": "Sun",
-          "year": "2020",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "3",
-          "name": "Vasant Panchami",
-          "date": "January 29, 2020",
-          "day": "Wed",
-          "year": "2020",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "4",
-          "name": "Holi",
-          "date": "March 10, 2020",
-          "day": "Wed",
-          "year": "2020",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "5",
-          "name": "Rama Navami",
-          "date": "April 2, 2020",
-          "day": "Thu",
-          "year": "2020",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "6",
-          "name": "Janmashtami",
-          "date": "August 12, 2020",
-          "day": "Wed",
-          "year": "2020",
-          "isholidayforallteams": "false",
-          "teams": [
-            {
-              "id": "1",
-              "teamname": "abc"
-            },
-            {
-              "id": "2",
-              "teamname": "abddc"
-            }
-          ],
-          "org": "udgama"
-        },
-        {
-          "id": "7",
-          "name": "Independence Day",
-          "date": "August 15, 2020",
-          "day": "Sat",
-          "year": "2020",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "8",
-          "name": "Dussehra",
-          "date": "October 24, 2020",
-          "day": "Sun",
-          "year": "2020",
-          "isholidayforallteams": "false",
-          "teams": [
-            {
-              "id": "1",
-              "teamname": "abc"
-            },
-            {
-              "id": "2",
-              "teamname": "abddc"
-            }
-          ],
-          "org": "udgama"
-        },
-        {
-          "id": "9",
-          "name": "Diwali",
-          "from": "November 2, 2020",
-          "to": "November 5, 2020",
-          "day": "Sat to Wed",
-          "year": "2020",
-          "isholidayforallteams": "false",
-          "teams": [
-            {
-              "id": "1",
-              "teamname": "abc"
-            },
-            {
-              "id": "2",
-              "teamname": "abddc"
-            }
-          ],
-          "org": "udgama"
-        },
-        {
-          "name": "Off day",
-          "date": "02/12/2012",
-          "teams": [
-            "abc",
-            "absb"
-          ],
-          "id": "993OdV_"
-        },
-        {
-          "name": "Off day",
-          "date": "02/12/2012",
-          "isholidayforallteams": false,
-          "teams": [
-            "abc",
-            "absb"
-          ],
-          "id": "n1W_yt9"
-        }
-      ]
-    },
-    {
-      "id": 2021,
-      "data": [
-        {
-          "id": "1",
-          "name": "Makar sankranti",
-          "date": "January 1, 2021",
-          "day": "Wed",
-          "year": "2021",
-          "isholidayforallteams": "false",
-          "teams": [
-            {
-              "id": "1",
-              "teamname": "abc"
-            },
-            {
-              "id": "2",
-              "teamname": "abddc"
-            }
-          ],
-          "org": "udgama"
-        },
-        {
-          "id": "2",
-          "name": "Republic Day",
-          "date": "January 26, 2021",
-          "day": "Sun",
-          "year": "2021",
-          "isholidayforallteams": "false",
-          "teams": [
-            {
-              "id": "1",
-              "teamname": "abc"
-            },
-            {
-              "id": "2",
-              "teamname": "abddc"
-            }
-          ],
-          "org": "udgama"
-        },
-        {
-          "id": "3",
-          "name": "Vasant Panchami",
-          "date": "January 29, 2021",
-          "day": "Wed",
-          "year": "2021",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "4",
-          "name": "Holi",
-          "date": "March 10, 2021",
-          "day": "Wed",
-          "year": "2021",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "5",
-          "name": "Rama Navami",
-          "date": "April 2, 2021",
-          "day": "Thu",
-          "year": "2021",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "6",
-          "name": "Janmashtami",
-          "date": "August 12, 2021",
-          "day": "Wed",
-          "year": "2021",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "7",
-          "name": "Independence Day",
-          "date": "August 15, 2021",
-          "day": "Sat",
-          "year": "2021",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "8",
-          "name": "Dussehra",
-          "date": "October 24, 2021",
-          "day": "Sun",
-          "year": "2021",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        },
-        {
-          "id": "9",
-          "name": "Diwali",
-          "from": "November 2, 2021",
-          "to": "November 5, 2021",
-          "day": "Sat to Wed",
-          "year": "2021",
-          "isholidayforallteams": "true",
-          "org": "udgama"
-        }
-      ]
-    },
-    {
-      "name": "Off day",
-      "date": "02/12/2012",
-      "teams": [
-        "abc",
-        "absb"
-      ],
-      "id": 2022
-    },
-    {
-      "name": "hello day",
-      "date": "02/12/2012",
-      "year": "2020",
-      "isholidayforallteams": "true",
-      "teams": [
-        "abc",
-        "absb"
-      ],
-      "id": 2023
-    }
-  ],
-  "leave": [
-    {
-      "name": "Indigo Montoya",
-      "reason": "indigomontoya@gmail.com",
-      "date": "02/12/2012",
-      "id": 1
-    }
-  ],
-  "demoholidays": [
+  "holidays": [
     {
       "id": "1",
       "name": "Makar sankranti",
       "date": "January 1, 2020",
       "day": "Wed",
       "year": "2020",
-      "isholidayforallteams": "true",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "Yes",
       "org": "udgama"
     },
     {
@@ -572,35 +300,60 @@
       "date": "January 26, 2020",
       "day": "Sun",
       "year": "2020",
-      "isholidayforallteams": "false",
-          "teams": [
-            {
-              "id": "1",
-              "teamname": "abc"
-            },
-            {
-              "id": "2",
-              "teamname": "abddc"
-            }
-          ],
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "teams": [
+        {
+          "id": "1",
+          "teamname": "abc"
+        },
+        {
+          "id": "2",
+          "teamname": "abddc"
+        }
+      ],
       "org": "udgama"
     },
     {
       "id": "3",
       "name": "Vasant Panchami",
-      "date": "January 29, 2020",
       "day": "Wed",
       "year": "2020",
-      "isholidayforallteams": "true",
+      "ismultidayholiday": "Yes",
+      "startDate": "January 29, 2020",
+      "endDate": "January 31, 2020",
+      "isholidayforallteams": "No",
+      "teams": [
+        {
+          "id": "1",
+          "teamname": "abc"
+        },
+        {
+          "id": "2",
+          "teamname": "abddc"
+        }
+      ],
       "org": "udgama"
     },
     {
       "id": "4",
       "name": "Holi",
-      "date": "March 10, 2021",
+      "ismultidayholiday": "Yes",
+      "startDate": "March 29, 2020",
+      "endDate": "March 30, 2020",
       "day": "Wed",
       "year": "2021",
-      "isholidayforallteams": "true",
+      "isholidayforallteams": "No",
+      "teams": [
+        {
+          "id": "1",
+          "teamname": "abc"
+        },
+        {
+          "id": "2",
+          "teamname": "abddc"
+        }
+      ],
       "org": "udgama"
     },
     {
@@ -609,7 +362,8 @@
       "date": "April 2, 2021",
       "day": "Thu",
       "year": "2021",
-      "isholidayforallteams": "true",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "Yes",
       "org": "udgama"
     },
     {
@@ -618,8 +372,23 @@
       "date": "August 12, 2021",
       "day": "Wed",
       "year": "2021",
-      "isholidayforallteams": "true",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "Yes",
       "org": "udgama"
+    },
+    {
+      "name": "demo",
+      "date": "Thu Jun 25 2020 14:45:00 GMT+0530 (India Standard Time)",
+      "year": "2020",
+      "day": "undefined",
+      "startDate": "undefined",
+      "endDate": "undefined",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "teams": [
+        "Z-off topic,Udgama"
+      ],
+      "id": "DOhW4oa"
     }
   ]
 }

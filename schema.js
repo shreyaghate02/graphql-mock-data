@@ -50,9 +50,10 @@ type Holidays {
     isMultipleHoliday: String
     date: String
     day: String
-    start_date: String
-    end_date: String
+    startDate: String
+    endDate: String
     year: String
+    ismultidayholiday: String
     isholidayforallteams: String
     teamname: String
     teams: [Teams]
@@ -77,15 +78,19 @@ input HolidayInput {
     name: String
     date: String
     year: String
+    day: String
+    startDate: String
+    endDate: String
+    ismultidayholiday: String
     isholidayforallteams: String
     teams: [String]
 }
-input CreateHolidayInput {
-    id: ID!
-    data: [HolidayInput]
-}
 type CreatedMsg {
     msg: String
+}
+type Data {
+    msg: String
+    data: Holidays
 }
 
 type Query {
@@ -95,11 +100,11 @@ type Query {
     leave: [AddLeave],
     teams: [Teams],
     teammembers: [TeamMembers],
-    demoholidays: [Holidays]
+    holidays: [Holidays]
 }
 type Mutation {
     createLeave(input: CreateLeave): CreatedMsg
-    createHoliday(input: CreateHolidayInput): CreatedMsg
+    createHoliday(input: HolidayInput): Data
 }
 `
 
@@ -120,7 +125,7 @@ export const resolvers = {
     teammembers: () => {
         return userModel.teammemberList()
     },
-    demoholidays: () => {
+    holidays: () => {
         return userModel.getHoliday()
     }
   },
