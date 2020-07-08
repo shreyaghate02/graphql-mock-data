@@ -167,7 +167,7 @@
       "to": "December 5, 2019",
       "reason": "sample",
       "approvername": "Pradnya Dalvi",
-      "org": "xyz",
+      "orgname": "xyz",
       "notename": "Akshata Waghe will be off during the requested time. Please see the dashboard for more details"
     },
     {
@@ -180,299 +180,334 @@
       "reason": "Not well",
       "approvername": "Snehal Narkar",
       "apshort": "SN",
-      "org": "udgama"
+      "orgname": "udgama"
     }
   ],
-  "people": [
+  "employee": [
     {
-      "name": "Akshata",
+      "employeeId": 1,
+      "employeeType": "approver",
+      "name": "Akshata Waghe",
+      "email": "ak@gmail.com",
+      "password": "akwaghe",
+      "teamname": "Udgama",
       "image": "/avatars/avatar_1.png"
     },
     {
-      "name": "Pradnya",
+      "employeeId": 2,
+      "employeeType": "employee",
+      "name": "Aniket Kambli",
+      "email": "ank@gmail.com",
+      "password": "aniket",
+      "teamname": "Udgama",
       "image": "/avatars/avatar_2.png"
     },
     {
-      "name": "Snehal",
+      "employeeId": 3,
+      "employeeType": "employee",
+      "name": "Mandar Waghe",
+      "email": "mw@gmail.com",
+      "password": "mandar",
+      "teamname": "Udgama",
       "image": "/avatars/avatar_3.png"
     },
     {
-      "name": "Shreya",
+      "employeeId": 4,
+      "employeeType": "approver",
+      "name": "Nisha Joshi",
+      "email": "nj@gmail.com",
+      "password": "njoshi",
+      "teamname": "Udgama",
       "image": "/avatars/avatar_4.png"
-    },
-    {
-      "name": "Shradha",
-      "image": "/avatars/avatar_5.png"
-    },
-    {
-      "name": "Aniket",
-      "image": "/avatars/avatar_6.png"
     }
   ],
   "teammembers": [
     {
-      "Image": "/avatars/avatar_1.png",
-      "Name": "Akshata Waghe",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "engineering",
-      "AccountType": "| User",
-      "Status": "Active",
+      "image": "/avatars/avatar_1.png",
+      "name": "Akshata Waghe",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "engineering",
+      "employeeType": "| User",
+      "status": "Active",
       "org": "udgama"
     },
     {
-      "Image": "/avatars/avatar_2.png",
-      "Name": "Aniket Kambli",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "backend",
-      "AccountType": "| User",
-      "Status": "Active",
+      "image": "/avatars/avatar_2.png",
+      "name": "Aniket Kambli",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "backend",
+      "employeeType": "| User",
+      "status": "Active",
       "org": "udgama"
     },
     {
-      "Image": "/avatars/avatar_3.png",
-      "Name": "Devendra Mehra",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "engineering",
-      "AccountType": "| Admin",
-      "Status": "Active",
+      "image": "/avatars/avatar_3.png",
+      "name": "Devendra Mehra",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "engineering",
+      "employeeType": "| Admin",
+      "status": "Active",
       "org": "udgama"
     },
     {
-      "Image": "/avatars/avatar_4.png",
-      "Name": "Mandar Waghe",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "engineering",
-      "AccountType": "| User",
-      "Status": "Active",
+      "image": "/avatars/avatar_4.png",
+      "name": "Mandar Waghe",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "engineering",
+      "employeeType": "| User",
+      "status": "Active",
       "org": "udgama"
     },
     {
-      "Image": "/avatars/avatar_5.png",
-      "Name": "Nisha Joshi",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "engineering",
-      "AccountType": "| User",
-      "Status": "Active",
+      "image": "/avatars/avatar_5.png",
+      "name": "Nisha Joshi",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "engineering",
+      "employeeType": "| User",
+      "status": "Active",
       "org": "udgama"
     },
     {
-      "Image": "/avatars/avatar_6.png",
-      "Name": "Pradnya Dalvi",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "engineering",
-      "AccountType": "| User",
-      "Status": "Active",
+      "image": "/avatars/avatar_6.png",
+      "name": "Pradnya Dalvi",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "engineering",
+      "employeeType": "| User",
+      "status": "Active",
       "org": "udgama"
     },
     {
-      "Image": "/avatars/avatar_2.png",
-      "Name": "Shreya Ghate",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "engineering",
-      "AccountType": "| Admin",
-      "Status": "Active",
+      "image": "/avatars/avatar_2.png",
+      "name": "Shreya Ghate",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "engineering",
+      "employeeType": "| Admin",
+      "status": "Active",
       "org": "udgama"
     },
     {
-      "Image": "/avatars/avatar_1.png",
-      "Name": "Snehal Narkar",
-      "RemainingDays": "24/24 days off remaining",
-      "Team": "backend",
-      "AccountType": "| User",
-      "Status": "Active",
+      "image": "/avatars/avatar_1.png",
+      "name": "Snehal Narkar",
+      "availabledaysoffcurrentyear": "24/24 days off remaining",
+      "team": "backend",
+      "employeeType": "| User",
+      "status": "Active",
       "org": "xyz"
+    }
+  ],
+  "importforyear": [
+    {
+      "value": "2020",
+      "label": "2020"
+    },
+    {
+      "value": "2021",
+      "label": "2021"
     }
   ],
   "holidays": [
     {
-      "id": "1",
-      "name": "Makar sankranti",
-      "date": "January 1, 2020",
-      "day": "Wed",
-      "year": "2020",
-      "ismultidayholiday": "No",
-      "isholidayforallteams": "Yes",
-      "org": "udgama"
-    },
-    {
-      "id": "2",
-      "name": "Republic Day",
-      "date": "January 26, 2020",
-      "day": "Sun",
-      "year": "2020",
-      "ismultidayholiday": "No",
-      "isholidayforallteams": "No",
-      "teams": [
-        {
-          "id": "1",
-          "teamname": "abc"
-        },
-        {
-          "id": "2",
-          "teamname": "abddc"
-        }
-      ],
-      "org": "udgama"
-    },
-    {
       "id": "3",
-      "name": "Vasant Panchami",
-      "day": "Wed",
-      "year": "2020",
+      "name": "Vasant Panchamiiiiii",
+      "date": "null",
+      "day": "Invalid date",
+      "year": "Invalid date",
       "ismultidayholiday": "Yes",
-      "startDate": "January 29, 2020",
-      "endDate": "January 31, 2020",
       "isholidayforallteams": "No",
+      "startDate": "Thu Jan 30 2020 00:00:00 GMT+0530 (India Standard Time)",
+      "endDate": "Fri Jan 31 2020 00:00:00 GMT+0530 (India Standard Time)",
       "teams": [
-        {
-          "id": "1",
-          "teamname": "abc"
-        },
-        {
-          "id": "2",
-          "teamname": "abddc"
-        }
-      ],
-      "org": "udgama"
-    },
-    {
-      "id": "4",
-      "name": "Holi",
-      "ismultidayholiday": "Yes",
-      "startDate": "March 29, 2020",
-      "endDate": "March 30, 2020",
-      "day": "Wed",
-      "year": "2021",
-      "isholidayforallteams": "No",
-      "teams": [
-        {
-          "id": "1",
-          "teamname": "abc"
-        },
-        {
-          "id": "2",
-          "teamname": "abddc"
-        }
-      ],
-      "org": "udgama"
+        "sssd,Udgama,Engineering"
+      ]
     },
     {
       "id": "5",
-      "name": "Rama Navami",
-      "date": "April 2, 2021",
-      "day": "Thu",
+      "name": "Rama Navamiiiiii",
+      "date": "Sat Apr 03 2021 00:00:00 GMT+0530 (India Standard Time)",
+      "day": "Saturday",
       "year": "2021",
       "ismultidayholiday": "No",
-      "isholidayforallteams": "Yes",
-      "org": "udgama"
-    },
-    {
-      "id": "6",
-      "name": "Janmashtami",
-      "date": "August 12, 2021",
-      "day": "Wed",
-      "year": "2021",
-      "ismultidayholiday": "No",
-      "isholidayforallteams": "Yes",
-      "org": "udgama"
-    },
-    {
-      "name": "demo",
-      "date": "Thu Jun 25 2020 14:45:00 GMT+0530 (India Standard Time)",
-      "year": "2020",
-      "day": "undefined",
-      "startDate": "undefined",
-      "endDate": "undefined",
-      "ismultidayholiday": "No",
       "isholidayforallteams": "No",
+      "startDate": "null",
+      "endDate": "null",
       "teams": [
-        "Z-off topic,Udgama"
-      ],
-      "id": "DOhW4oa"
+        "Udgama"
+      ]
     },
     {
-      "name": "trial",
-      "date": "Sat Jun 13 2020 16:26:00 GMT+0530 (India Standard Time)",
+      "id": "1",
+      "name": "Raksha Bandhan",
+      "date": "Thu Aug 27 2020 12:16:00 GMT+0530 (India Standard Time)",
+      "day": "Thursday",
       "year": "2020",
-      "day": "Saturday",
-      "startDate": "undefined",
-      "endDate": "undefined",
-      "ismultidayholiday": "No",
-      "isholidayforallteams": "No",
-      "teams": [
-        "Udgama,Engineering"
-      ],
-      "id": "TIsYDrw"
-    },
-    {
-      "name": "new year",
-      "date": "Tue Jun 30 2020 17:00:00 GMT+0530 (India Standard Time)",
-      "year": "2020",
-      "day": "Tuesday",
-      "startDate": "undefined",
-      "endDate": "undefined",
-      "ismultidayholiday": "No",
-      "isholidayforallteams": "No",
-      "teams": [
-        "Udgama,Engineering,Z-off topic"
-      ],
-      "id": "sDsKRH2"
-    },
-    {
-      "name": "udgama day",
-      "date": "Sat Jun 13 2020 17:05:00 GMT+0530 (India Standard Time)",
-      "year": "2020",
-      "day": "Saturday",
-      "startDate": "undefined",
-      "endDate": "undefined",
       "ismultidayholiday": "No",
       "isholidayforallteams": "No",
       "teams": [
         "Udgama"
       ],
-      "id": "GaA-kk9"
+      "startDate": "undefined",
+      "endDate": "undefined"
     },
     {
-      "name": "hellloooo",
-      "date": "Wed Jun 17 2020 17:05:00 GMT+0530 (India Standard Time)",
+      "id": "2",
+      "name": "Makar Sankranti",
+      "date": "Thu Jan 02 2020 12:17:00 GMT+0530 (India Standard Time)",
+      "day": "Thursday",
       "year": "2020",
-      "day": "Wednesday",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "teams": [
+        "Udgama"
+      ],
+      "startDate": "undefined",
+      "endDate": "undefined"
+    },
+    {
+      "name": "Tech Day",
+      "date": "Fri Jul 10 2020 12:41:00 GMT+0530 (India Standard Time)",
+      "day": "Friday",
+      "year": "2020",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
       "startDate": "undefined",
       "endDate": "undefined",
+      "teams": [
+        "Engineering"
+      ],
+      "id": "7jpnyiD"
+    },
+    {
+      "id": "cdTKI7w",
+      "name": "Holi123",
+      "date": "Wed Jul 01 2020 12:46:00 GMT+0530 (India Standard Time)",
+      "day": "Wednesday",
+      "year": "2020",
       "ismultidayholiday": "No",
       "isholidayforallteams": "Yes",
-      "teams": [
-        ""
-      ],
-      "id": "pLu0a2R"
-    },
-    {
-      "name": "diwali vacation",
-      "date": "undefined",
-      "year": "2020",
-      "day": "Friday",
       "startDate": "undefined",
       "endDate": "undefined",
-      "ismultidayholiday": "Yes",
-      "isholidayforallteams": "Yes",
       "teams": [
-        ""
-      ],
-      "id": "b487tek"
+        "Udgama",
+        "Engineering"
+      ]
     },
     {
-      "name": "christmas vacay",
-      "date": "undefined",
-      "year": "2020",
+      "id": "C8vpOnN",
+      "name": "Holi",
+      "date": "Fri Jul 09 2021 15:58:00 GMT+0530 (India Standard Time)",
       "day": "Friday",
-      "startDate": "Sat Jun 13 2020 17:42:00 GMT+0530 (India Standard Time)",
-      "endDate": "Fri Jun 26 2020 17:42:00 GMT+0530 (India Standard Time)",
-      "ismultidayholiday": "Yes",
+      "year": "2021",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "startDate": "undefined",
+      "endDate": "undefined",
+      "teams": [
+        "",
+        "Engineering",
+        "Udgama"
+      ]
+    },
+    {
+      "id": "J4lxmdx",
+      "name": "Gudi Padwa",
+      "date": "Fri Jul 10 2020 16:05:00 GMT+0530 (India Standard Time)",
+      "day": "Friday",
+      "year": "2020",
+      "ismultidayholiday": "No",
       "isholidayforallteams": "Yes",
+      "startDate": "undefined",
+      "endDate": "undefined",
       "teams": [
         ""
+      ]
+    },
+    {
+      "id": "Y5AizRw",
+      "name": "Christmas",
+      "date": "Sat Dec 25 2021 16:16:00 GMT+0530 (India Standard Time)",
+      "day": "Saturday",
+      "year": "2021",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "startDate": "undefined",
+      "endDate": "undefined",
+      "teams": [
+        "Engineering",
+        "Udgama"
+      ]
+    }
+  ],
+  "importholidays2020": [
+    {
+      "id": "1",
+      "name": "Makar Sankranti",
+      "date": "January 1, 2020",
+      "day": "Wednesday",
+      "year": "2020",
+      "isholidayforallteams": "Yes",
+      "org": "udgama",
+      "checked": true
+    },
+    {
+      "id": "2",
+      "name": "Republic Day",
+      "date": "January 26, 2020",
+      "day": "Sunday",
+      "year": "2020",
+      "isholidayforallteams": "No",
+      "teams": [
+        "dhs,ddfs"
       ],
-      "id": "aIf5XuO"
+      "org": "udgama",
+      "checked": true
+    },
+    {
+      "id": "3",
+      "name": "Vasant Panchami",
+      "date": "January 29, 2020",
+      "day": "Wednesday",
+      "year": "2020",
+      "isholidayforallteams": "Yes",
+      "org": "udgama",
+      "checked": true
+    }
+  ],
+  "importholidays2021": [
+    {
+      "id": 1,
+      "name": "Makar Sankranti",
+      "date": "January 1, 2021",
+      "day": "Wednesday",
+      "year": "2021",
+      "isholidayforallteams": "Yes",
+      "org": "udgama",
+      "checked": false
+    },
+    {
+      "id": 2,
+      "name": "Republic Day",
+      "date": "January 26, 2021",
+      "day": "Sunday",
+      "year": "2021",
+      "isholidayforallteams": "No",
+      "teams": [
+        "dhs,ddfs"
+      ],
+      "org": "udgama",
+      "checked": true
+    },
+    {
+      "id": 3,
+      "name": "Vasant Panchami",
+      "day": "Wednesday",
+      "year": "2021",
+      "date": "January 29, 2021",
+      "isholidayforallteams": "No",
+      "teams": [
+        "ssss"
+      ],
+      "org": "udgama",
+      "checked": true
     }
   ]
 }

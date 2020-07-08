@@ -7,12 +7,14 @@ class User {
     })
   }
 
-  userList() {
-    return this.api.get('/users').then(res => res.data).then(res => res.json())
+  employeeList() {
+    return this.api.get('/employee').then(res => res.data)
+    .then(res => res)
+    .catch(err => console.log(err));
   }
 
-  personList() {
-    return this.api.get('/people').then(res => res.data)
+  teammembersList() {
+    return this.api.get('/teammembers').then(res => res.data)
     .then(res => res)
     .catch(err => console.log(err));
   }
@@ -22,24 +24,27 @@ class User {
     .then(res => res)
     .catch(err => console.log(err));
   }
-  addleaveList() {
-    return this.api.get('/leave').then(res => res.data)
-    .then(res => res)
-    .catch(err => console.log(err));
-  }
-  teammemberList() {
-    return this.api.get('/teammembers').then(res => res.data)
+
+  getHoliday() {
+    return this.api.get('/holidays').then(res => res.data)
     .then(res => res)
     .catch(err => console.log(err));
   }
 
-  // getHoliday() {
-  //   return this.api.get(`/holiday`).then(res => res.data)
-  //   .then(res => res)
-  //   .catch(err => console.log(err));
-  // }
-  getHoliday() {
-    return this.api.get('/holidays').then(res => res.data)
+  year() {
+    return this.api.get('/importforyear').then(res => res.data)
+    .then(res => res)
+    .catch(err => console.log(err));
+  }
+
+  getHolidaysfor2020() {
+    return this.api.get('/importholidays2020').then(res => res.data)
+    .then(res => res)
+    .catch(err => console.log(err));
+  }
+
+  getHolidaysfor2021() {
+    return this.api.get('/importholidays2021').then(res => res.data)
     .then(res => res)
     .catch(err => console.log(err));
   }
@@ -61,7 +66,20 @@ class User {
 
   async createHoliday(data) {
     console.log(data);
-    const data1 = await this.api.post('/holidays', data.input);
+    const t = `${data.teams}`;
+    const team = t.split(',');
+    const data1 = await this.api.post('/holidays', {
+      name: data.name,
+      date: data.date,
+      day: data.day,
+      year: data.year,
+      ismultidayholiday: data.ismultidayholiday,
+      isholidayforallteams: data.isholidayforallteams,
+      startDate: data.startDate,
+      endDate: data.endDate,
+      orgid: data.orgid,
+      teams: team
+    });
     console.log(data1);
     if (data1.status === 201 || data.status === 200){
         return {
@@ -73,6 +91,73 @@ class User {
         error: "Something went wrong!"
     }
   }
+
+async createImportHoliday(data) {
+  console.log(data);
+  const t = `${data.teams}`;
+  const team = t.split(',');
+  const data1 = await this.api.post('/holidays', {
+    name: data.name,
+    date: data.date,
+    day: data.day,
+    year: data.year,
+    isholidayforallteams: data.isholidayforallteams,
+    orgid: data.orgid,
+    teams: team
+  });
+  console.log(data1);
+  if (data1.status === 201 || data.status === 200){
+      return {
+          msg: "Holiday imported successfuly!",
+          data: data1.data
+      }
+  }
+  return {
+      error: "Something went wrong!"
+  }
 }
 
-export default new User();;
+async deleteHoliday(args) {
+  const data = await this.api.delete(`/holidays/${args.id}`);
+  console.log(data);
+  if (data.status === 200) {
+      return {
+          msg: 'Holiday deleted successfuly!',
+      };
+  }
+  return {
+      msg: 'Something went wrong!',
+  };
+}
+
+async updateHoliday(args) {
+  console.log(args);
+  const t = `${args.teams}`;
+  const team = t.split(',');
+  const data = await this.api.put(`/holidays/${args.id}`, {
+      id: args.id,
+      name: args.name,
+      date: args.date,
+      day: args.day,
+      year: args.year,
+      ismultidayholiday: args.ismultidayholiday,
+      isholidayforallteams: args.isholidayforallteams,
+      startDate: args.startDate,
+      endDate: args.endDate,
+      orgid: args.orgid,
+      teams: team
+  });
+  console.log(data);
+  if (data.status === 200) {
+      return {
+          msg: 'Holiday updated successfuly!',
+      };
+  }
+  return {
+      msg: 'Something went wrong!',
+  };
+}
+
+}
+
+export default new User();
