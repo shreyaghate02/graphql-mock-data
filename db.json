@@ -317,7 +317,7 @@
       "startDate": "Thu Jan 30 2020 00:00:00 GMT+0530 (India Standard Time)",
       "endDate": "Fri Jan 31 2020 00:00:00 GMT+0530 (India Standard Time)",
       "teams": [
-        "sssd,Udgama,Engineering"
+        "Engineering"
       ]
     },
     {
@@ -378,7 +378,7 @@
     },
     {
       "id": "cdTKI7w",
-      "name": "Holi123",
+      "name": "Holi",
       "date": "Wed Jul 01 2020 12:46:00 GMT+0530 (India Standard Time)",
       "day": "Wednesday",
       "year": "2020",
@@ -386,6 +386,8 @@
       "isholidayforallteams": "Yes",
       "startDate": "undefined",
       "endDate": "undefined",
+      "startDay": "Thursday",
+      "endDay": "Thursday",
       "teams": [
         "Udgama",
         "Engineering"
@@ -402,7 +404,6 @@
       "startDate": "undefined",
       "endDate": "undefined",
       "teams": [
-        "",
         "Engineering",
         "Udgama"
       ]
@@ -418,7 +419,7 @@
       "startDate": "undefined",
       "endDate": "undefined",
       "teams": [
-        ""
+        "Engineering"
       ]
     },
     {
@@ -433,6 +434,120 @@
       "endDate": "undefined",
       "teams": [
         "Engineering",
+        "Udgama"
+      ]
+    },
+    {
+      "id": "zHQAQFh",
+      "name": "diwali",
+      "date": "undefined",
+      "day": "Invalid date",
+      "year": "Invalid date",
+      "ismultidayholiday": "Yes",
+      "isholidayforallteams": "Yes",
+      "startDate": "Sun Jul 12 2020 11:50:00 GMT+0530 (India Standard Time)",
+      "endDate": "Mon Jul 13 2020 11:50:00 GMT+0530 (India Standard Time)",
+      "startDay": "Sunday",
+      "endDay": "Monday",
+      "teams": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "Owk_yLo",
+      "name": "Diwali",
+      "date": "undefined",
+      "day": "Invalid date",
+      "year": "Invalid date",
+      "ismultidayholiday": "Yes",
+      "isholidayforallteams": "No",
+      "startDate": "Sun Jul 25 2021 11:55:00 GMT+0530 (India Standard Time)",
+      "endDate": "Tue Jul 27 2021 11:55:00 GMT+0530 (India Standard Time)",
+      "startDay": "Sunday",
+      "endDay": "Tuesday",
+      "teams": [
+        "Engineering",
+        "Udgama"
+      ]
+    },
+    {
+      "id": "v-8Cpio",
+      "name": "Eid",
+      "date": "Sat Jul 10 2021 11:56:00 GMT+0530 (India Standard Time)",
+      "day": "Saturday",
+      "year": "2020",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "startDate": "undefined",
+      "endDate": "undefined",
+      "startDay": "Thursday",
+      "endDay": "Thursday",
+      "teams": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "cbI_x_5",
+      "name": "Timeoff",
+      "date": "undefined",
+      "day": "Invalid date",
+      "year": "2021",
+      "ismultidayholiday": "Yes",
+      "isholidayforallteams": "Yes",
+      "startDate": "Sun Jul 11 2021 12:21:00 GMT+0530 (India Standard Time)",
+      "endDate": "Tue Jul 13 2021 12:21:00 GMT+0530 (India Standard Time)",
+      "startDay": "Sunday",
+      "endDay": "Tuesday",
+      "teams": [
+        "Udgama"
+      ]
+    },
+    {
+      "name": "Ganpati",
+      "date": "undefined",
+      "day": "Thursday",
+      "year": "2020",
+      "ismultidayholiday": "Yes",
+      "isholidayforallteams": "Yes",
+      "startDate": "Fri Jul 24 2020 12:07:00 GMT+0530 (India Standard Time)",
+      "endDate": "Tue Jul 28 2020 12:07:00 GMT+0530 (India Standard Time)",
+      "startDay": "Friday",
+      "endDay": "Tuesday",
+      "teams": [
+        "Udgama"
+      ],
+      "id": "0VXfZR8"
+    },
+    {
+      "id": "5Pd9Rgf",
+      "name": "Udgama Day",
+      "date": "Fri Jul 24 2020 16:08:00 GMT+0530 (India Standard Time)",
+      "day": "Friday",
+      "year": "2020",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "startDate": "undefined",
+      "endDate": "undefined",
+      "startDay": "Thursday",
+      "endDay": "Thursday",
+      "teams": [
+        "Engineering",
+        "Udgama"
+      ]
+    },
+    {
+      "id": "2L83q01",
+      "name": "Trial",
+      "date": "Sat Jul 11 2020 16:17:00 GMT+0530 (India Standard Time)",
+      "day": "Saturday",
+      "year": "2020",
+      "ismultidayholiday": "No",
+      "isholidayforallteams": "No",
+      "startDate": "undefined",
+      "endDate": "undefined",
+      "startDay": "Thursday",
+      "endDay": "Thursday",
+      "teams": [
         "Udgama"
       ]
     }

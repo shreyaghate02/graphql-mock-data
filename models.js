@@ -68,6 +68,7 @@ class User {
     console.log(data);
     const t = `${data.teams}`;
     const team = t.split(',');
+  
     const data1 = await this.api.post('/holidays', {
       name: data.name,
       date: data.date,
@@ -77,6 +78,8 @@ class User {
       isholidayforallteams: data.isholidayforallteams,
       startDate: data.startDate,
       endDate: data.endDate,
+      startDay: data.startDay,
+      endDay: data.endDay,
       orgid: data.orgid,
       teams: team
     });
@@ -144,6 +147,8 @@ async updateHoliday(args) {
       isholidayforallteams: args.isholidayforallteams,
       startDate: args.startDate,
       endDate: args.endDate,
+      startDay: args.startDay,
+      endDay: args.endDay,
       orgid: args.orgid,
       teams: team
   });

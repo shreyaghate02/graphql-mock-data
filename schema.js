@@ -88,6 +88,8 @@ type Holidays {
     day: String
     startDate: String
     endDate: String
+    startDay: String
+    endDay: String
     year: String
     ismultidayholiday: String
     isholidayforallteams: String
@@ -177,6 +179,8 @@ input HolidayInput {
     day: String
     startDate: String
     endDate: String
+    startDay: String
+    endDay: String
     ismultidayholiday: String
     isholidayforallteams: String
     teams: [String]
@@ -190,6 +194,8 @@ input HolidayEditInput {
     day: String
     startDate: String
     endDate: String
+    startDay: String
+    endDay: String
     ismultidayholiday: String
     isholidayforallteams: String
     teams: [String]
